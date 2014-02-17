@@ -9,7 +9,7 @@ TARGET_SCREEN_WIDTH := 720
 $(call inherit-product, vendor/liquid/config/common_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/htc/evita/device_evita.mk)
+$(call inherit-product, device/htc/evita/liquid_evita.mk)
 
 # Device naming
 PRODUCT_DEVICE := evita
